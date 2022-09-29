@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  padding: 20px 0;
+}
+
+main {
+  width: 300px;
+  height: auto;
+  color: white;
+}
+
+.auto-one {
+  background-color: rgb(241, 204, 40);
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+
+.auto-two {
+  background-color: rgb(13, 109, 153);
+  padding: 20px;
+}
+
+.auto-three {
+  background-color: rgb(13, 161, 87);
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+img {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+  width: 125px;
+  margin-left: 10px;
+}
+
+p {
+  padding: 25px 10px;
+  font-size: 1.6rem;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  transition: 1s;
+}
+
+button:hover {
+  box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.699);
+  font-weight: bold;
+}
+
+.btn1 {
+  color: rgb(241, 204, 40);
+}
+
+.btn2 {
+  color: rgb(13, 109, 153);
+}
+
+.btn3 {
+  color: rgb(13, 161, 87);
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  main {
+    width: 900px;
+    display: flex;
+  }
+
+  .auto-one {
+    background-color: rgb(241, 204, 40);
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+  }
+
+  .auto-three {
+    border-radius: 0 20px 20px 0;
+  }
+}
